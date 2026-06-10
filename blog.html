@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화곡 셔츠룸 블로그 | 마포 성우이벤트</title>
+    <meta name="description" content="마포 성우이벤트가 선보이는 화곡 셔츠룸. 진짜를 아는 당신을 위한, 장르를 넘은 감각. 24시간 프리미엄 서비스, 010-6279-0862로 지금 연결하세요.">
+    <meta name="keywords" content="화곡 셔츠룸, 마포 셔츠룸, 성우이벤트, 셔츠룸 추천, 마포 유흥, 프리미엄 셔츠룸, 화곡동 셔츠룸">
+    <meta name="bpaas-design-system" content="editorial-apple">
+    <meta name="bpaas-design-theme" content="kr-noir-gold">
+    <link rel="canonical" href="https://sf-t3-1779642675702-380.vercel.app">
+    <meta property="og:title" content="화곡 셔츠룸 블로그 | 마포 성우이벤트">
+    <meta property="og:description" content="진짜를 아는 당신을 위한 화곡 셔츠룸. 마포 성우이벤트가 제안하는 새로운 기준.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <style>
+        /* Reset & Base */
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            scroll-behavior: smooth;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0b0b0b;
+            color: #f2ede4;
+            line-height: 1.6;
+            font-weight: 400;
+            letter-spacing: 0.02em;
+        }
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+        h1 {
+            font-size: 2.8rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+            margin: 2.5rem 0 1rem 0;
+            border-left: 6px solid #d4af37;
+            padding-left: 1.2rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+            margin: 2rem 0 0.8rem 0;
+        }
+        p {
+            margin-bottom: 1.2rem;
+            font-size: 1.05rem;
+            color: #ddd8cf;
+        }
+        a {
+            color: #d4af37;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            transition: border 0.2s, color 0.2s;
+        }
+        a:hover {
+            color: #f5e6b0;
+            border-bottom-color: #f5e6b0;
+        }
+        /* Drop Cap */
+        .drop-cap::first-letter {
+            font-size: 4rem;
+            float: left;
+            line-height: 0.9;
+            margin-right: 0.75rem;
+            color: #d4af37;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+        /* Layout */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+        /* Header & Navigation */
+        header {
+            background-color: #111111;
+            border-bottom: 1px solid #2a2a2a;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+        .nav-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .logo a {
+            font-size: 1.6rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            border-bottom: none;
+            color: #f2ede4;
+        }
+        .logo a:hover {
+            color: #d4af37;
+        }
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+        .nav-links a {
+            font-weight: 500;
+            font-size: 0.95rem;
+            border-bottom: none;
+            color: #cccac3;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            padding: 0.3rem 0;
+        }
+        .nav-links a:hover {
+            color: #d4af37;
+        }
+        .tel-link {
+            background: #d4af37;
+            color: #0b0b0b !important;
+            padding: 0.5rem 1.2rem;
+            border-radius: 40px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            letter-spacing: 0.02em;
+            transition: background 0.2s, transform 0.1s;
+            border: none;
+        }
+        .tel-link:hover {
+            background: #e4c257;
+            color: #0b0b0b !important;
+            transform: scale(1.02);
+        }
+        /* Hamburger menu (mobile) */
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+        }
+        .hamburger span {
+            display: block;
+            width: 28px;
+            height: 2px;
+            background: #f2ede4;
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+        /* Responsive 768px */
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.6rem; }
+            .nav-links {
+                display: none;
+                flex-direction: column;
+                width: 100%;
+                background: #1a1a1a;
+                padding: 1.5rem 0;
+                gap: 1.2rem;
+                margin-top: 1rem;
+                border-top: 1px solid #2a2a2a;
+            }
+            .nav-links.active {
+                display: flex;
+            }
+            .hamburger {
+                display: flex;
+            }
+            .tel-link {
+                display: inline-block;
+                text-align: center;
+                width: auto;
+                margin-top: 0.5rem;
+            }
+        }
+        /* Hero minimal */
+        .hero-blog {
+            padding: 3rem 0 1.5rem 0;
+        }
+        .hero-blog h1 {
+            font-size: 3rem;
+        }
+        .hero-blog .meta {
+            color: #a09888;
+            font-size: 0.95rem;
+            letter-spacing: 0.04em;
+            border-bottom: 1px solid #2a2a2a;
+            padding-bottom: 1rem;
+            margin-bottom: 2rem;
+        }
+        /* article body */
+        .blog-body {
+            padding-bottom: 4rem;
+        }
+        .blog-body blockquote {
+            border-left: 4px solid #d4af37;
+            background: #1e1e1e;
+            padding: 1.2rem 2rem;
+            margin: 1.8rem 0;
+            font-style: italic;
+            color: #e0d7c8;
+            font-size: 1.1rem;
+        }
+        .blog-body .highlight {
+            color: #d4af37;
+            font-weight: 600;
+        }
+        .cta-end {
+            background: #1c1c1c;
+            padding: 2rem;
+            border-radius: 20px;
+            margin: 2.5rem 0;
+            text-align: center;
+            border: 1px solid #2f2f2f;
+        }
+        .cta-end p {
+            font-size: 1.2rem;
+        }
+        .cta-end .tel-cta {
+            display: inline-block;
+            margin-top: 0.8rem;
+            background: #d4af37;
+            color: #0b0b0b;
+            padding: 0.7rem 2.2rem;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 1.2rem;
+            border-bottom: none;
+            transition: 0.2s;
+        }
+        .cta-end .tel-cta:hover {
+            background: #e4c257;
+            transform: scale(1.02);
+        }
+        footer {
+            border-top: 1px solid #2a2a2a;
+            padding: 2rem 0;
+            text-align: center;
+            color: #7a756b;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container nav-wrapper">
+        <div class="logo">
+            <a href="/">성우이벤트</a>
+        </div>
+        <div class="hamburger" id="hamburger" aria-label="메뉴 열기" role="button" tabindex="0">
+            <span></span><span></span><span></span>
+        </div>
+        <nav class="nav-links" id="navLinks">
+            <a href="/">홈</a>
+            <a href="/about">시그니처</a>
+            <a href="/blog">블로그</a>
+            <a href="/contact" class="tel-link">010-6279-0862</a>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section class="hero-blog">
+        <h1>화곡 셔츠룸, <br>그 ‘진짜’를 찾는 법</h1>
+        <div class="meta">마포 성우이벤트 · 2025.04.02 · 6 min read</div>
+    </section>
+
+    <article class="blog-body">
+        <p class="drop-cap">셔츠룸 씬(scene)은 거품이 심하다. SNS에 넘치는 후기, 별점, 광고성 플레이. 하지만 화곡 셔츠룸의 본질은 다른 곳에 있다. 너는 진짜를 원하는가? 아니면 그냥 ‘그럭저럭’에 만족할 건가? 마포 성우이벤트는 후자를 용납하지 않는다. 우리는 장르를 넘나드는 감각, 완성형 서비스, 24시간 프리미엄을 말한다. 그리고 그 기준은 타협하지 않는다.</p>
+
+        <p>화곡동은 이제 단순한 주거지가 아니다. 마포를 품은 새로운 핫플레이트, 그리고 <span class="highlight">셔츠룸의 정수</span>가 자리한 곳. 나는 수많은 셔츠룸을 경험했고, 대부분이 ‘평균’에 갇혀 있다는 걸 안다. 같은 음악, 같은 조명, 비슷한 안주. 지루함의 정석. 하지만 성우이벤트는 처음부터 다르게 설계되었다. 엄선된 아티스트, 매주 리프레시되는 구성, 그리고 무대 위 퍼포먼스가 아니라 <strong>당신의 취향을 저격하는 퍼스널 큐레이션</strong>.</p>
+
+        <h2>왜 ‘장르를 넘은 감각’인가</h2>
+        <p>클럽? 라운지? 셔츠룸? 우리는 라벨에 집착하지 않는다. 중요한 건 분위기, 퀄리티, 그리고 ‘너만의 기준’을 만족시키는가다. 화곡 셔츠룸 성우이벤트는 전통적인 셔츠룸의 틀을 깼다. 어쿠스틱부터 딥하우스까지, 공간의 사운드는 시간대에 따라 변주된다. 조명은 골드 톤으로 통일되어 있지만, 과하지 않다. 모든 디테일이 <em>너를 위한 편안한 긴장감</em>을 연출한다.</p>
+
+        <blockquote>
+            “화곡에서 이런 경험은 처음이야. 마치 강남 프라이빗 멤버십을 방불케 하는데, 훨씬 자유롭고 진짜야.” – 단골 멤버 K.
+        </blockquote>
+
+        <h3>프리미엄의 재정의: 24시간, 365일</h3>
+        <p>밤샘? 아침까지? 우리는 24시간 운영된다. ‘프리미엄’이라는 말이 단순히 비싼 안주나 와인 리스트에 붙는 게 아니다. 언제든 네가 원할 때, 최고의 상태로 맞이할 준비가 되어 있다는 뜻이다. 새벽 3시, 갑자기 생각난 화곡 셔츠룸. 망설일 필요 없다. <a href="tel:01062790862">010-6279-0862</a>로 연결하면 모든 준비는 끝난다.</p>
+
+        <p>또한 우리는 ‘이벤트’의 장인이다. 매주 목요일은 신규 아티스트 데이, 금요일은 재즈 라이브, 토요일은 하우스 디제이 세트. 반복은 없다. 지루함은 금기다. 마포 성우이벤트는 게스트의 에너지를 읽고 공간을 재구성한다. <span class="highlight">화곡 셔츠룸의 진정한 블랙</span>은 여기에 있다.</p>
+
+        <div class="cta-end">
+            <p><strong>지금, 진짜를 선택해.</strong> 평범한 셔츠룸에 지쳤다면 010-6279-0862로 전화해. 24시간 대기 중.</p>
+            <a href="tel:01062790862" class="tel-cta">010-6279-0862</a>
+            <p style="margin-top: 1rem; font-size: 0.9rem;">마포구 · 화곡동 · 성우이벤트 · 프리미엄 오픈런</p>
+        </div>
+
+        <p>결론은 간단하다. <strong>화곡 셔츠룸은 많지만, 성우이벤트는 하나뿐이다.</strong> 너는 어디에 있을 건가? 평범함의 늪에 빠질 것인가, 아니면 진짜 감각을 마주할 것인가. 선택은 너의 몫이다. 물론, 우리는 이미 답을 알고 있다.</p>
+    </article>
+</main>
+
+<footer>
+    <div class="container">
+        <p>마포 성우이벤트 · 화곡 셔츠룸 · 24시간 프리미엄 · 010-6279-0862</p>
+        <p>© 2025 진짜를 아는 당신을 위한 공간. All rights reserved.</p>
+    </div>
+</footer>
+
+<script>
+    (function() {
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        if (hamburger && navLinks) {
+            hamburger.addEventListener('click', function(e) {
+                e.stopPropagation();
+                navLinks.classList.toggle('active');
+            });
+            document.addEventListener('click', function(e) {
+                if (!navLinks.contains(e.target) && !hamburger.contains(e.target)) {
+                    navLinks.classList.remove('active');
+                }
+            });
+            // 접근성: Enter 키 지원
+            hamburger.addEventListener('keydown', function(e) {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    navLinks.classList.toggle('active');
+                }
+            });
+        }
+    })();
+</script>
+</body>
+</html>
