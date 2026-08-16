@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sf-t3-1779642675702-380.maphoshirts.xyz/sitemap.xml
-Sitemap: https://sf-t3-1779642675702-380.maphoshirts.xyz/sitemap-pages.xml
+Sitemap: https://hwagok-shirt-14.maphoshirts.xyz/sitemap.xml
+Sitemap: https://hwagok-shirt-14.maphoshirts.xyz/sitemap-pages.xml
